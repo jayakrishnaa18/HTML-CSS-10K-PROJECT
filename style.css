@@ -1107,4 +1107,127 @@ footer p{
     footer p{
         font-size: 12px;
     }
+    .container33{
+        z-index: -999;
+        position: absolute;
+    }
+    footer {
+        position: absolute;
+        width: 100%;
+        bottom: -1601px;
+        z-index: 1;
+    }
+    iframe{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+    
+}
+@media only screen and (max-width: 297px){
+    .camera-container{
+        width: 280px;
+        top: 300px;
+    }
+    .menu-card #img-bg1{
+        width: 260px;
+    }
+    .menu-card nav ul{
+        left: -180px;
+        top: 9px;
+    }
+    .letter-container{
+        width: 280px;
+        top: 790px;
+    }
+    .letter-img img{
+        width: 140px;
+        top: 102%;
+    }
+    .camera-img img{
+        width: 150px;
+        top: 140px;
+    }
+    .client-pic .client-pic1{
+        left: -3px;
+    }
+    .client-pic21 .clientpic2{
+        left: -3px;
+    }
+    .client-pic3 .clientpic3{
+        left: -3px;
+    }
+    .client-pic .client-pic2{
+        left: 38%;
+    }
+    .client-pic h3{
+        left: 38%;
+    }
+    .client-pic21 .clientpic22{
+        left: 35%;
+    }
+    .client-pic21 p{
+        left: 22%;
+    }
+    .client-pic21 h3{
+        left: 40%;
+    }
+    .client-pic3 .clientpic33{
+        left: 38%;
+    }
+    .client-pic3 h3{
+        left: 38%;
+    }
+    .container3 .industrial{
+        top: 52%;
+        left: 10%;
+    }
+    .industrial-text{
+        top: 62%;
+        right: 0;
+    }
+    .industrial-text1{
+        bottom: 50px;
+        right: -8px;
+    }
+    .container4 .industrial1{
+        bottom: 300px;
+        left: 60px;
+    }
+    .input-img input{
+        z-index: 999;
+        position: absolute;
+    }
+    .input-img img{
+        position: absolute;
+        left: -10px;
+    }
+    .input-img2 img{
+        position: absolute;
+        left: -10px;
+    }
+
+    .input-img3 img{
+        position: absolute;
+        left: -10px;
+    }
+    .input-img4 img{
+        position: absolute;
+        left: -10px;
+    }
+    .input-img4 a{
+        top: -8px;
+        left: -15px;
+    }
+    .container33{
+        z-index: -999;
+        position: absolute;
+    }
+    footer {
+        position: absolute;
+        width: 100%;
+        bottom: -3300px;
+        z-index: 1;
+    }
 }
