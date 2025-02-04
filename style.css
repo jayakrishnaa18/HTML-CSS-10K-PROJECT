@@ -1,0 +1,1110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.container-bg{
+    width: 100%;
+    height: 140vh;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+.container-bg img{
+    width: 100%;
+    height: auto;
+    transform: scale(1.3);
+    transform-origin: center top;
+
+}
+.logo{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    z-index: 1;
+}
+
+.menu-card .img-hoverr{
+    position: absolute;
+    top: -28px;
+    left: -100px;
+    z-index: -1;
+}
+
+.menu-card #img-bg1{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.menu-card #img-bg{
+    width: 15px;
+    height: 80px;
+    object-fit: cover;
+    transform: scale(2);
+    transform : rotate(45deg);
+    position: absolute;
+    top: 88px;
+    left: 626px;
+    z-index: 1;
+}
+.menu-card nav ul{
+    display: flex;
+    list-style: none;
+    gap: 150px;
+}
+.container nav{
+    position: absolute;
+    top: 14%;
+    right: 22%;
+    z-index: 1;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: auto;
+}
+.camera-container{
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /* gap: 20px; */
+}
+.camera-container h3{
+    font-weight: 10;
+    font-size: 24px;
+}
+.camera-container h1{
+    font-size: 24px;
+    font-weight: 640;
+}
+.camera-container p{
+    top: 55%;
+    left: 40%;
+    z-index: 1;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 30;
+}
+.camera-img img{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.camera-img button{
+    top: 70%;
+    left: 60%;
+    z-index: 1;
+    padding: 15px 25px;
+    border: none;
+    background-image:url(./img/Learn-bg.png) ;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.camera-img button:hover{
+    background-image: linear-gradient( #f12711, #f5af19);
+}
+
+.letter-img img{
+    position: absolute;
+    top: 90%;
+    left: 48%;
+    z-index: 1;
+}
+.letter-container{
+    position: absolute;
+    top: 90%;
+    left: 21%;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.letter-container h3{
+    font-weight: 10;
+    font-size: 24px;
+}
+.letter-container h1{
+    font-size: 24px;
+    font-weight: 640;
+}
+.letter-container p{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 30;
+}
+.letter-container button{
+    padding: 15px 25px;
+    border: none;
+    background-image:url(./img/Learn-bg.png) ;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.letter-container button:hover{
+    background-image: linear-gradient( #f12711, #f5af19);
+}
+
+.arrow-img img{
+    position: absolute;
+    top: 122%;
+    left: 69%;
+    z-index: 1;
+}
+.container2{
+    position: relative;
+    overflow: hidden;
+    /* height: 100%; */
+}
+.container-bg2{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    /* height: 110vh; */
+    /* border: 10px solid black; */
+}
+.container-bg2 img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    transform: scale(1.03);
+    /* transform-origin: center center; */
+}
+.client-pic .client-pic1{
+    position: absolute;
+    top: 0;
+    left: 240px;
+    z-index: 1;
+    width: 350px;
+}
+
+
+.client-pic .client-pic2{
+    position: absolute;
+    top: 18%;
+    left: 25%;
+    z-index: 9;
+    border-radius: 50%;
+}
+.client-pic h3{
+    position: absolute;
+    z-index: 999;
+    color: white;
+    top: 28%;
+    left: 380px;
+}
+.client-pic21 .clientpic2{
+    position: absolute;
+    top: 175px;
+    left: 27%;
+    z-index: 1;
+    width: 350px;
+}
+.client-pic21 .clientpic22{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    z-index: 9;
+    border-radius: 50%;
+}
+.client-pic21 p{
+    position: absolute;
+    top: 52%;
+    left: 33%;
+    z-index: 9;
+    color: white;
+}
+.client-pic21 h3{
+    position: absolute;
+    top: 58%;
+    left: 36%;
+    z-index: 9;
+    color: white;
+}
+.client-pic3 .clientpic3{
+    position: absolute;
+    top: 352px;
+    left: 234px;
+    z-index: 9;
+    width: 350px;
+}
+.client-pic3 .clientpic33{
+    position: absolute;
+    top: 67%;
+    left: 25%;
+    z-index: 9;
+    border-radius: 50%;
+}
+.client-pic3 h3{
+    position: absolute;
+    top: 77%;
+    left: 370px;
+    z-index: 9;
+    color: white;
+}
+.container3 .industrial {
+    position: absolute;
+    top: 100px;
+    right: 550px;
+    z-index: 9;
+}
+.industrial-text{
+    position: absolute;
+    top: 13%;
+    right: 14%;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* align-items: flex-end; */
+}
+.industrial-text h1{
+    color: #00b3ae;
+    font-size: 24px;
+        font-weight: 640;
+    
+}
+.industrial-text h3{
+    color: aliceblue;
+    font-weight: 10;
+        font-size: 24px;
+}
+
+.industrial-text p{
+    top: 55%;
+    left: 40%;
+    z-index: 999;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+}
+.icon-container {
+    display: flex; 
+    gap: 20px;
+}
+.container4 .industrial1 {
+    position: absolute;
+    bottom: 80px;
+    right: 570px;
+    z-index: 9;
+}
+.industrial-text1{
+    position: absolute;
+    bottom: 13%;
+    right: 15%;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* align-items: flex-end; */
+}
+.industrial-text1 h1{
+    color: #00b3ae;
+    font-size: 24px;
+        font-weight: 640;
+}
+.industrial-text1 h3{
+    color: aliceblue;
+    font-weight: 10;
+        font-size: 24px;
+}
+
+.industrial-text1 p{
+    top: 55%;
+    left: 40%;
+    z-index: 99;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.icon-container1 {
+    display: flex; 
+    gap: 20px;
+}
+.contact-bg-container{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.contact-bg-container img{
+    width: 100%;
+    height: auto;
+    transform: scale(1.28);
+    transform-origin: center top ;
+    background-repeat: no-repeat;
+}
+iframe{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    z-index: -1;
+}
+.form-container{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    z-index: 1;
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 700px;
+    
+}
+h2{
+    position: absolute;
+    top: 10%;
+
+}
+.input-img{
+    position: absolute;
+    top: 25%;
+    left: 67px;
+    z-index: 1;
+    width: 50%;
+
+}
+.input-img2{
+    position: absolute;
+    top: 40%;
+    left: 126px;
+    z-index: 1;
+    width: 50%;
+}
+.input-img3{
+    position: absolute;
+    top: 55%;
+    left: 193px;
+    z-index: 1;
+    width: 58%;
+}
+.input-img4{
+    position: absolute;
+    top: 86%;
+    left: 310px;
+    z-index: 1;
+    width: 50%;
+}
+.input-img input{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    padding: 10px;
+    opacity: 1;
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    
+}
+.input-img2 input{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    padding: 10px;
+    opacity: 1;
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    
+}
+
+.input-img3 input{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    padding: 10px;
+    opacity: 1;
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    
+}
+
+.input-img4 a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    opacity: 1;
+    width: 100%;
+    border: none;
+    padding-left: 100px;
+    
+}
+.form-container ::placeholder{
+    color: white;
+    font-size: medium;
+}
+footer{
+    /* height: 10px; */
+    position: relative;
+}
+footer img{
+    width: 100%;
+    height: 70px;
+}
+footer p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+@media only screen and (max-width: 1024px){
+    .menu-card #img-bg{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1440px){
+    .img-hoverr{
+        display: none;
+    }
+    .menu-card nav ul{
+        gap: 100px;
+    }
+    .camera-container{
+        left: 40%;
+        top: 31%;
+    }
+    .arrow-img img{
+        display: none;
+    }
+    .container-bg img{
+        display: none;
+    
+    }
+    .container-bg img{
+        display: flex;
+        background: url(/img/header-bg2.png);
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+    .camera-img img{
+        top: 30%;
+    }
+    .letter-img img{
+        top: 65%;
+        left: 70%;
+    }
+    .letter-container{
+        top: 65%;
+        left: 42%;
+    }
+    .client-pic .client-pic1{
+        top: 0;
+        left: 80px;
+    }
+    .client-pic .client-pic2{
+        top: 15%;
+        left: 15%;
+    }
+    .client-pic h3{
+        top: 24%;
+        left: 210px;
+    }
+    .client-pic3 .clientpic3{
+        top: 521px;
+        left: 80px;
+    }
+    .client-pic3 .clientpic33{
+        top: 73%;
+        left: 15%;
+    }
+    .client-pic3 h3{
+        top: 83%;
+        left: 210px;
+    }
+    .client-pic21 .clientpic2{
+        top: 260px;
+        left: 22%;
+    }
+    .client-pic21 .clientpic22{
+        top: 40%;
+        left: 31%;
+    }
+    .client-pic21 p{
+        top: 51%;
+        left: 28%;
+    }
+    .client-pic21 h3{
+        top: 57%;
+        left: 32%;
+    }
+}
+
+@media only screen and (max-width: 1241px){
+    .logo a img{
+        width: 200px;
+    }
+    .menu-card #img-bg1{
+        width: 500px;
+        top: 12%;
+    }
+    .menu-card nav ul{
+        gap: 70px;
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+    .container-bg img{
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    .camera-container{
+        top: 30%;
+        left: 50%;
+    }
+    .camera-img img{
+        top: 30%;
+        left: 25%;
+    }
+    .letter-img img{
+        top: 90%;
+        left: 28%;
+    }
+    .letter-container{
+        top: 90%;
+        left: 50%;
+    }
+    .industrial-text{
+        width: 290px;
+        top: 5%;
+        right: 5%;
+    }
+    .industrial-text1{
+        width: 290px;
+        bottom: 5%;
+        right: 5%;
+    }
+    .container4 .industrial1{
+        bottom: 40px;
+        right: 350px;
+        width: 180px;
+    }
+    .container3 .industrial {
+        top: 12%;
+        right: 350px;
+        width: 180px;
+    }
+    .client-pic .client-pic1{
+        top: 0;
+        left: 60px;
+        width: 300px;
+    }
+    .client-pic .client-pic2{
+        top: 15%;
+        left: 17%;
+    }
+    .client-pic h3{
+        top: 26%;
+        left: 174px;
+    }
+    .client-pic21 .clientpic2{
+        top: 150px;
+        left: 21%;
+        width: 300px;
+    }
+    .client-pic21 .clientpic22{
+        top: 38%;
+        left: 31%;
+    }
+    .client-pic21 p{
+        top: 51%;
+        left: 28%;
+        font-size: 14px;
+    }
+    .client-pic21 h3{
+        top: 57%;
+        left: 32%;
+    }
+    .client-pic3 .clientpic3{
+        top: 303px;
+        left: 62px;
+        width: 300px;
+    }
+    .client-pic3 .clientpic33{
+        top: 67%;
+        left: 17%;
+    }
+    .client-pic3 h3{
+        top: 79%;
+        left: 172px;
+    }
+    .container33 , .contact-bg-container{
+        width: 100%;
+        height: 100%;
+    }
+    .form-container{
+        top: 0;
+        left: 31%;
+        width: 500px;
+        height: 300px;
+    }
+    .form-container h2{
+        top: 5%;
+        left: 8%;
+    }
+    .input-img input{
+        top: 0;
+    }
+    .form-container .input-img2{
+        top: 40%;
+        left: 110px;
+    }
+    .input-img2 input{
+        top: 0;
+    }
+    .form-container .input-img3{
+        top: 55%;
+        left: 160px;
+    }
+    .input-img3 input{
+        top: 0;
+    }
+    .form-container .input-img4{
+        top: 86%;
+        left: 250px;
+    }
+    .input-img4 a{
+        top: -5px;
+        left: -15px;
+        
+    }
+}
+
+
+@media only screen and (max-width: 426px){
+
+    .logo a img{
+        width: 100px;
+        position: absolute;
+        top: 0;
+    }
+    .menu-card #img-bg1{
+        width: 400px;
+        top: 15%;
+        left: 5px;
+        object-fit: cover;
+    }
+    .container-bg img{
+        height: 1800px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        object-position: center;
+        object-fit: cover;
+    }
+    .menu-card nav ul{
+        gap: 50px;
+        position: absolute;
+        top: 14px;
+        left: -270px;
+    }
+    .container-bg img{
+        display: block;
+    }
+    .container-bg img{
+        height: 500px;
+        /* background: url(/img/header-bg.png); */
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .container{
+        width: 100%;
+        height: 1100px;
+        background: url(/img/header-bg1.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        
+    }
+    .camera-img img{
+        top: 28%;
+        left: 10%;
+        width: 180px;
+    }
+    .camera-container{
+        top: 58%;
+        left: 3%;
+        width: 400px;
+    }
+    .letter-img img{
+        top: 100%;
+        left: 10%;
+        width: 220px;
+    }
+    .letter-container{
+        top: 860px;
+        left: 5%;
+    }
+    .container2{
+        width: 100%;
+        height: 2000px;
+    }
+    .container-bg2 img{
+        height: 2000px;
+    }
+    .industrial-text{
+        top: 1250px;
+        right: 12%;
+    }
+    .container3 .industrial {
+        top: 52%;
+        right: 130px;
+        width: 180px;
+    }
+    .industrial-text1{
+        bottom: 50px;
+        right: 15%;
+    }
+    .container4 .industrial1{
+        bottom: 290px;
+        left: 125px;
+        width: 180px;
+    }
+    .client-pic3 .clientpic3{
+        top: 680px;
+        left: 60px;
+        width: 300px;
+    }
+    .client-pic21 .clientpic2{
+        top: 350px;
+        left: 60px;
+        width: 300px;
+    }
+    .client-pic .client-pic1{
+        top: 10px;
+        left: 60px;
+        width: 300px;
+    }
+    .client-pic .client-pic2{
+        top: 110px;
+        left: 40%;
+    }
+    .client-pic h3{
+        top: 180px;
+        left: 40%;
+    }
+    .client-pic21 .clientpic22{
+        top: 430px;
+        left: 39%;
+    }
+    .client-pic21 p{
+        top: 510px;
+        left: 31%;
+    }
+    .client-pic21 h3{
+        top: 550px;
+        left: 42%;
+    }
+    .client-pic3 .clientpic33{
+        top: 780px;
+        left: 40%;
+    }
+    .client-pic3 h3{
+        top: 850px;
+        left: 40%;
+    }
+    .container33 , .contact-bg-container{
+        width: 100%;
+        height: 800px;
+    }
+    .container44 iframe{
+        left: 0;
+    }
+    .contact-bg-container .background-img{
+        display: none;
+    }
+    .contact-bg-container{
+        width: 100%;
+        background: url(/img/contact-bg1.png);        
+        z-index: -1;
+    }
+    .contact-container h2{
+        top: 10%;
+        left: 25%;
+    }
+    .form-container{
+        top: 0;
+        left: 15%;
+        width: 300px;
+        height: 350px;
+    }
+    .form-container .input-img{
+        top: 25%;
+        left: 0;
+        width: 100%;
+
+    }
+    .input-img input{
+        top: 0;
+        z-index: 999;
+    }
+    .form-container .input-img2{
+        top: 40%;
+        left: 0;
+        width: 100%;
+    }
+    .input-img2 input{
+        top: 0;
+        z-index: 999;
+    }
+    .form-container .input-img3{
+        top: 55%;
+        left: 0;
+        width: 100%;
+    }
+    .input-img3 input{
+        top: 0;
+        z-index: 999;
+    }
+    .form-container .input-img4{
+        top: 86%;
+        left: 0;
+        width: 100%;
+    }
+    .input-img4 a{
+        top: 0;
+        left: 0;
+        width: 100%;
+    }   
+    .container33 .contact-bg-container{
+        z-index: -1;
+    }
+    .contact-container input{
+        z-index: 999;
+    }
+    footer p{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 376px){
+    .menu-card nav ul{
+        gap: 50px;
+        left: -220px;
+        top: 14px;
+
+    }
+    .menu-card nav ul li a{
+        font-size: 14px;
+    }
+    
+    .menu-card #img-bg1{
+        width: 370px;
+    }
+    .camera-container{
+        width: 350px;
+    }
+    .letter-img img{
+        width: 200px;
+    }
+    .letter-container{
+        width: 350px;
+        top: 830px;
+        left: 4%;
+    }   
+    .client-pic .client-pic1{
+    left: 35px;
+    }
+    .client-pic21 .clientpic2{
+        left: 35px;
+    }
+    .client-pic3 .clientpic3{
+        left: 35px;
+    }
+    .form-container{
+        left: 10%;
+    }
+}
+@media only screen and (max-width: 326px){
+    .menu-card #img-bg1{
+        width: 300px;
+    }
+    .menu-card nav ul li a{
+        font-size: 12px;
+    }
+    .menu-card nav ul{
+        gap: 30px;
+        left: -180px;
+        top: 12px;
+    }
+    .camera-container{
+        width: 300px;
+    }
+    .letter-container{
+        width: 300px;
+        top: 810px;
+    }
+    .letter-img img{
+        width: 180px;
+        top: 105%;
+    }
+    .client-pic .client-pic1{
+        left: 10px;
+    }
+    .client-pic21 .clientpic2{
+        left: 10px;
+    }
+    .client-pic21 p{
+        left: 25%;
+    }
+    .client-pic3 .clientpic3{
+        left: 10px;
+    }
+    .industrial-text{
+        right: 5%;
+    }
+    .industrial-text1{
+        right: 5%;
+    }
+    .form-container{
+        left: 11%;
+        width: 250px;
+    }
+    .input-img4 a{
+        top: -8px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+}
+@media only screen and (min-device-width: 426px) and (max-device-width: 768px){
+    .menu-card #img-bg1{
+        width: 450px;
+    }
+    .menu-card nav ul{
+        gap: 60px;
+        position: absolute;
+        left: -220px;
+    }
+    .camera-img img{
+        top: 30%;
+        left: 10%;
+        width: 210px;
+    }
+    .camera-container{
+        top: 30%;
+        left: 40%;
+        /* width: 400px; */
+    }
+    .letter-img img{
+        left: 7%;
+    }
+    .letter-container{
+        top: 90%;
+        left: 40%;
+    }
+    .container-bg2 img{
+        height: 1000px;
+    }
+    .container33{
+        height: 280px;
+    }
+    .form-container{
+        top: -5%;
+    }
+    .form-container h2{
+        top: 8%;
+    }
+    .industrial-text{
+        top: 45%;
+        right: 5%;
+    }
+    .container3 .industrial{
+        top: 48%;
+        left: 15%;
+    }
+    .container4 .industrial1{
+        bottom: 50px;
+        right: 60%;
+    }
+    .client-pic .client-pic1{
+        top: 0;
+        left: 0;
+        width: 300px;
+    }
+    .client-pic .client-pic2{
+        top: 10%;
+        left: 15%;
+    }
+    .client-pic h3{
+        top: 17%;
+        left: 110px;
+    }
+    .client-pic3 .clientpic3{
+        top: 0;
+        left: 466px;
+    }
+    .client-pic3 .clientpic33{
+        top: 10%;
+        left: 76%;
+    }
+    .client-pic3 h3{
+        top: 17%;
+        left: 76%;
+    }
+    .client-pic21 .clientpic2{
+        top: 120px;
+        left: 30%;
+        width: 300px;
+    }
+    .client-pic21 .clientpic22{
+        top: 20%;
+        left: 44%;
+    }
+    .client-pic21 p{
+        top: 28%;
+        left: 40%;
+    }
+    .client-pic21 h3{
+        top: 32%;
+        left: 46%;
+    }
+    footer p{
+        font-size: 12px;
+    }
+}
