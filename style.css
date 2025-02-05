@@ -758,8 +758,10 @@ footer p{
         width: 100%;
         height: 1100px;
         background: url(img/header-bg1.png);
+        /* background: url(img/header-bg1.png); */
         background-position: right;
         background-repeat: no-repeat;
+        /* z-index: 1; */
         
     }
     .camera-img img{
@@ -921,6 +923,16 @@ footer p{
     footer p{
         font-size: 12px;
     }
+    .container33{
+        z-index: -999;
+        position: absolute;
+    }
+    footer {
+        position: absolute;
+        width: 100%;
+        bottom: -3368px;
+        z-index: 1;
+    }
 }
 @media only screen and (max-width: 376px){
     .menu-card nav ul{
@@ -958,6 +970,16 @@ footer p{
     }
     .form-container{
         left: 10%;
+    }
+    .container33{
+        z-index: -999;
+        position: absolute;
+    }
+    footer {
+        position: absolute;
+        width: 100%;
+        bottom: -3315px;
+        z-index: 1;
     }
 }
 @media only screen and (max-width: 326px){
@@ -1010,6 +1032,16 @@ footer p{
     }
     footer p{
         font-size: 10px;
+    }
+    .container33{
+        z-index: -999;
+        position: absolute;
+    }
+    footer {
+        position: absolute;
+        width: 100%;
+        bottom: -3305px;
+        z-index: 1;
     }
 }
 @media only screen and (min-device-width: 426px) and (max-device-width: 768px){
@@ -1140,6 +1172,7 @@ footer p{
     .letter-container{
         width: 280px;
         top: 790px;
+        left: 5px;
     }
     .letter-img img{
         width: 140px;
@@ -1229,5 +1262,6 @@ footer p{
         width: 100%;
         bottom: -3300px;
         z-index: 1;
+
     }
 }
