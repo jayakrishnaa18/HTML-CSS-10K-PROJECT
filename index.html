@@ -137,24 +137,26 @@
             <div class = "form-container">
                 <div class = "contact-container">
                     <h2>CONTACT <span>US</span></h2>
+                    <form action="#">
                     <div class = "input-img">
                         <img src="img/input-img1.png" alt="">
-                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Name" required pattern="[a-zA-Z ]{5,20}" title="Only letters are allowed">
+                
                     </div>
                     <div class = "input-img2">
                         <img src="img/input-img1.png" alt="">
-                        <input type="email" placeholder="Email">
+                        <input type="email" placeholder="Email" required pattern="[a-z0-9_.]+@gmail.com">
                     </div>
                     <div class = "input-img3">
                         <img src="img/textarea-img.png" alt="">
-                        <input type="text" placeholder="Message" cols="30" rows="10">
+                        <input type="text" placeholder="Message" required cols="30" rows="10">
                     </div>
                     <div class = "input-img4">
                         <img src="img/submit-bg.png" alt="">
-                        <a href="#">Submit</a>
+                        <a href="#" type="">Submit</a>
                     </div>
                 
-                    <form action="">
+                    
                         
                     </form> 
                 </div>
