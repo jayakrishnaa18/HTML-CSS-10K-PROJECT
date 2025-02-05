@@ -1265,3 +1265,24 @@ footer p{
 
     }
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 374px){
+    .menu-card #img-bg1{
+        width: 300px;
+    }
+    .menu-card nav ul{
+        gap: 30px;
+        left: -200px;
+        top: 12px;
+    }
+    .camera-container{
+        width: 300px;
+    }
+    .letter-img img{
+        width: 180px;
+        top: 640px;
+    }
+    .letter-container{
+        width: 300px;
+        top: 810px;
+    }
+}
