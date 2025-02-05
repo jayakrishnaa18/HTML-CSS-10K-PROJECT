@@ -490,6 +490,27 @@ footer p{
     transform: translate(-50%, -50%);
     color: white;
 }
+.camera-img img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.letter-img img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.img-hoverr:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.container2 img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+footer img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
 @media only screen and (max-width: 1024px){
     .menu-card #img-bg{
         display: none;
